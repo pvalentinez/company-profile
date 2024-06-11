@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaCompass } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -18,19 +18,19 @@ const Hero = () => {
         <div className='flex justify-center relative my-20 z-10'>
             <div className='max-w-[89vw md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                 <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                    Dynamic Web Magic with Next.js
+                Elevate Your Online Presence
                 </h2>
                 <TextGenerateEffect
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                    words="Transforming Concepts into Seamless Experience"
+                    words="Crafting Exceptional Websites for Your Business Growth"
                 />
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                    Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+                At Z2H, we specialize in creating stunning, responsive websites that drive engagement and conversions. Partner with us to elevate your online presence
                 </p>
                 <a href='#about'>
                     <MagicButton
-                        title="show my work"
-                        icon={<FaLocationArrow />}
+                        title="Discover Our Services"
+                        icon={<FaCompass />}
                         position='right'
                     />
                 </a>
